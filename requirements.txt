@@ -6,3 +6,4 @@ MarkupSafe
 py
 pytest
 Werkzeug
+gunicorn
