@@ -7,7 +7,7 @@ adverbs = ('remarkably', 'enormously', 'substantially', 'significantly', 'seriou
 verbs = ('accelerates', 'improves', 'enhances', 'revamps', 'boosts')
 
 
-def sample(lint, nummer = 1):
+def sample(lint, nummer=1):
     result = random.sample(lint, nummer)
 
     if nummer == 1:
@@ -18,9 +18,9 @@ def sample(lint, nummer = 1):
 
 def generate_buzz():
     buzz_terms = sample(buzz, 2)
-    
+
     phrase = ' '.join([sample(adjectives), buzz_terms[0], sample(adverbs), sample(verbs), buzz_terms[1]])
-    
+
     return phrase.title()
 
 
