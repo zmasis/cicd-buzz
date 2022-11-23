@@ -19,7 +19,6 @@
      "standard_d2ads_v5",
      "standard_d2as_v4",
      "standard_d2as_v5",
-     "standard_d2ds_v5",
      "standard_d2s_v3",
      "standard_d2s_v4",
      "standard_d2s_v5",
@@ -39,7 +38,7 @@
    "createdBy": "125cc8f9-a61a-4a03-9f8f-f83f1e431980",
    "createdOn": "2022-11-23T12:06:14.5598536Z",
    "updatedBy": "125cc8f9-a61a-4a03-9f8f-f83f1e431980",
-   "updatedOn": "2022-11-23T12:09:44.159738Z"
+   "updatedOn": "2022-11-23T12:12:19.0888348Z"
   },
   "enforcementMode": "Default"
  },
