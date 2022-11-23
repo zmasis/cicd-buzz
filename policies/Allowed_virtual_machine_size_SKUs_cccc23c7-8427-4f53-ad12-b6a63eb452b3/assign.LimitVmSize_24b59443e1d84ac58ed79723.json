@@ -1,0 +1,49 @@
+{
+ "sku": {
+  "name": "A0",
+  "tier": "Free"
+ },
+ "properties": {
+  "displayName": "LimitVmSize",
+  "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/cccc23c7-8427-4f53-ad12-b6a63eb452b3",
+  "scope": "/subscriptions/9cd5d530-97b0-4c01-91ea-2cdf92bea652",
+  "notScopes": [],
+  "parameters": {
+   "listOfAllowedSKUs": {
+    "value": [
+     "standard_a1_v2",
+     "standard_a2_v2",
+     "standard_b2ms",
+     "standard_b2s",
+     "standard_b4ms",
+     "standard_d2ads_v5",
+     "standard_d2as_v4",
+     "standard_d2as_v5",
+     "standard_d2ds_v5",
+     "standard_d2s_v3",
+     "standard_d2s_v4",
+     "standard_d2s_v5",
+     "standard_d4ads_v5",
+     "standard_e2ads_v5",
+     "standard_e2as_v5",
+     "standard_e2s_v5",
+     "standard_e4ads_v5"
+    ]
+   }
+  },
+  "description": "",
+  "metadata": {
+   "parameterScopes": {
+    "listOfAllowedSKUs": "/subscriptions/9cd5d530-97b0-4c01-91ea-2cdf92bea652"
+   },
+   "createdBy": "125cc8f9-a61a-4a03-9f8f-f83f1e431980",
+   "createdOn": "2022-11-23T12:06:14.5598536Z",
+   "updatedBy": "125cc8f9-a61a-4a03-9f8f-f83f1e431980",
+   "updatedOn": "2022-11-23T12:09:44.159738Z"
+  },
+  "enforcementMode": "Default"
+ },
+ "id": "/subscriptions/9cd5d530-97b0-4c01-91ea-2cdf92bea652/providers/Microsoft.Authorization/policyAssignments/24b59443e1d84ac58ed79723",
+ "type": "Microsoft.Authorization/policyAssignments",
+ "name": "24b59443e1d84ac58ed79723"
+}
