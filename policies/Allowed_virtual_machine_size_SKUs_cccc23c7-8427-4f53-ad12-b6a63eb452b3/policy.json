@@ -9,7 +9,8 @@
    "category": "Compute"
   },
   "parameters":{
-   "listOfAllowedSKUs":  [
+   "listOfAllowedSKUs": {
+    "value": [
      "standard_a1_v2",
      "standard_a2_v2",
      "standard_b2ms",
@@ -27,6 +28,7 @@
      "standard_e2s_v5",
      "standard_e4ads_v5"
     ]
+   }
   },
   "policyRule": {
    "if": {
