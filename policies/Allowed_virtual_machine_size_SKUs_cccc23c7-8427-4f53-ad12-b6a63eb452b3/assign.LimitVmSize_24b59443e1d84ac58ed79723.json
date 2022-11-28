@@ -1,5 +1,7 @@
 {
  "sku": {
+  "name":"",
+  "type":""
  },
  "properties": {
   "displayName": "LimitVmSize",
