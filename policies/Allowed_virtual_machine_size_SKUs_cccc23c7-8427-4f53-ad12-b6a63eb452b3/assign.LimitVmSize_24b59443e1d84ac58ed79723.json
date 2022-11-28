@@ -1,7 +1,5 @@
 {
  "sku": {
-  "name": "A0",
-  "tier": "Free"
  },
  "properties": {
   "displayName": "LimitVmSize",
