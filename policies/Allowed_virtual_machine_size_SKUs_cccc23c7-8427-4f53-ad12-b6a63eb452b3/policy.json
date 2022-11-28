@@ -8,16 +8,6 @@
    "version": "1.0.1",
    "category": "Compute"
   },
-  "parameters": {
-   "listOfAllowedSKUs": {
-    "type": "Array",
-    "metadata": {
-     "description": "The list of size SKUs that can be specified for virtual machines.",
-     "displayName": "Allowed Size SKUs",
-     "strongType": "VMSKUs"
-    }
-   }
-  },
   "policyRule": {
    "if": {
     "allOf": [
