@@ -27,7 +27,7 @@
      "standard_e2s_v5",
      "standard_e4ads_v5"
     ]
-  }
+  },
   "policyRule": {
    "if": {
     "allOf": [
@@ -41,7 +41,6 @@
        "in":  "[parameters('listOfAllowedSKUs')]"
                 }
       }
-     }
     ]
    },
    "then": {
